@@ -1,0 +1,72 @@
+.task_card {
+    width: 100%;
+    min-height: 100px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0;
+    /* CSS Added by Yuvaraja */
+    
+    word-wrap: break-word; /* Allows long words to break and wrap to the next line */
+    white-space: normal; /* Allows text to wrap to the next line */
+    overflow-wrap: break-word; /* Ensures the text breaks if necessary */
+    background-color: #f9f9f9; /* Optional: background color for inner box*/
+    max-width: 500px; /* Set your desired maximum width for the outer box */
+    
+}
+
+.task_text {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.task_card_bottom_line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task_delete {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.task_delete:hover {
+    background-color: #ebebeb;
+}
+
+.delete_icon {
+    width: 20px;
+    opacity: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.task_delete:hover .delete_icon {
+    opacity: 80%;
+}
+
+
+
+/* CSS added by yuvaraja */
+
+.todo-item-desc {
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+ /* Optional: padding for better visual spacing */
+    margin: 15px 0; /* Optional: margin for spacing between items */
+    font-size: 18px;
+}
+
+.description_text_title{
+    font-size: 18px;
+    font-weight: 600;
+
+}
